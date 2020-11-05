@@ -289,20 +289,21 @@ nav .navbar-toggler {
 }
 
 .watch-page a {
-    background: #ffffff;
-    color: #000;
-    border-radius: 50%;
-    padding: 8px 12px;
-    margin-right: 20px;
-    font-size: 40px;
-    border: 2px solid #fff;
-    transition: .3s;
-    display: ruby;
+	background: #ffffff;
+	color: #000;
+	border-radius: 50%;
+	padding: 5px 10px 15px;
+	margin-right: 20px;
+	font-size: 40px;
+	border: 2px solid #fff;
+	transition: .3s;
+	display: ruby;
 }
-
+.watch-page svg{
+    width:40px;
+}
 .watch-page a:hover {
-    background: transparent;
-    color: #fff;
+	background: #c8c8c8;
 }
 
 .news-page h2 {
