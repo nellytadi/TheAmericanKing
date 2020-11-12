@@ -143,17 +143,17 @@ nav .navbar-toggler {
     transition: all 0.4s;
     font-weight: bold;
     font-family: Gotham-bold;
+    width: 70%;
 }
 
-.trailer-btn {
+.watch-btn {
     background: none;
     color: #FFB320;
-    width: 60%;
     overflow: hidden;
     position: relative;
 }
 
-.trailer-btn:hover {
+.watch-btn:hover {
     background: #ffffff;
     color: #FFB320;
     border: 1px solid #FFB320;
@@ -162,7 +162,7 @@ nav .navbar-toggler {
     transition: all 0.4s;
 }
 
-.trailer-btn:after {
+.watch-btn:after {
     content: '';
     position: absolute;
     z-index: -1;
@@ -176,18 +176,27 @@ nav .navbar-toggler {
     background: #fff;
 }
 
-.trailer-btn:hover:after,
-.trailer-btn:active:after {
+.watch-btn:hover:after,
+.watch-btn:active:after {
     height: 100%;
 }
 
-.watch-btn {
+.trailer-btn {
     background: #FFB320;
     color: #fff;
-    width: 100%;
+  
 
 }
-
+.where__watch h3{
+        color: #fff;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 24px;
+       
+}
+.where__watch p {
+	/* margin-left: -80px; */
+}
 .px-sm-0 {
     padding: auto;
 }
@@ -195,7 +204,9 @@ nav .navbar-toggler {
 .donate-btn {
     background: #fff;
     color: #FFB320;
-    width: 100%;
+    bottom: 0;
+    right:0;
+    position: absolute;
 }
 
 .trailer span {
@@ -287,25 +298,40 @@ nav .navbar-toggler {
     margin-top: -30px;
     margin-bottom: 30px;
 }
+.watch-ico{
 
+    background: #fff;
+    color: #ffb320;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
 .watch-page a {
-	background: #ffffff;
-	color: #000;
-	border-radius: 50%;
-	padding: 5px 10px 15px;
+	background: #ffb320;
+	color: #fff;
+	border-radius: 31px;
+	padding: 15px 20px;
 	margin-right: 20px;
 	font-size: 40px;
-	border: 2px solid #fff;
+	border: 2px solid #ffb320;
 	transition: .3s;
 	display: ruby;
+}
+.watch-icons div {
+	font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
 }
 .watch-page svg{
     width:40px;
 }
 .watch-page a:hover {
-	background: #c8c8c8;
+	background: #ffb320d1;
 }
-
+.watch-page p{
+    color: #fff;
+}
 .news-page h2 {
     font-size: 36px;
     color: #fff;
@@ -390,7 +416,9 @@ nav .navbar-toggler {
     .hr-line {
         display: none;
     }
-
+    .site-btn{
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -438,6 +466,10 @@ nav .navbar-toggler {
         padding: 10px 12px;
         margin-right: 10px;
         font-size: 30px;
+    }
+    .site-btn{
+        width: 100%;
+        font-size: 13px;
     }
 }
 
