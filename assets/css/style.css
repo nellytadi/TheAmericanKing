@@ -332,6 +332,35 @@ nav .navbar-toggler {
 .watch-page p{
     color: #fff;
 }
+.poster h1 {
+	font-size: 32px;
+	font-weight: lighter;
+}
+.owl-theme .owl-nav {
+	
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: none;
+	
+}
+.owl-theme .owl-dots{
+    margin-top: 50px;
+}
+.owl-theme .owl-prev{
+    float: left;  
+    position: absolute;
+	left: -10%;  
+}
+
+.owl-theme .owl-next{
+    float: right;
+    position: absolute;
+	right: -10%;
+}
+
 .news-page h2 {
     font-size: 36px;
     color: #fff;
@@ -470,6 +499,13 @@ nav .navbar-toggler {
     .site-btn{
         width: 100%;
         font-size: 13px;
+    }
+    .owl-theme .owl-prev{
+        left: 0;  
+    }
+    
+    .owl-theme .owl-next{
+        right: 0;
     }
 }
 
