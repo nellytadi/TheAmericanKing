@@ -349,10 +349,7 @@ nav .navbar-toggler {
 .sound__icons a:hover {
 	background: #ffb320d1;
 }
-.sound__icons .sound__div{
-    float: left;
-    margin: 2rem;
-}
+
 .poster h1 {
 	font-size: 32px;
 	font-weight: lighter;
@@ -471,6 +468,7 @@ nav .navbar-toggler {
     .mar_top_md{
         margin-top: 1rem;
     }
+   
 }
 
 @media (max-width: 768px) {
@@ -539,6 +537,9 @@ nav .navbar-toggler {
     
     .owl-theme .owl-next{
         right: 0;
+    }
+    .sound__icons .sound__div {
+        margin: 3rem 2rem 0 0;
     }
 }
 
