@@ -204,9 +204,9 @@ nav .navbar-toggler {
 .donate-btn {
     background: #fff;
     color: #FFB320;
-    bottom: 0;
-    right:0;
-    position: absolute;
+    /* bottom: 0; */
+    /* right: 0; */
+    /* position: absolute; */
 }
 
 .trailer span {
@@ -231,9 +231,14 @@ nav .navbar-toggler {
 
     text-align: center;
     text-transform: uppercase;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 }
-
+.top__watch {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 24px;
+}
 .soundtrack a {
     color: #ffffff;
 }
